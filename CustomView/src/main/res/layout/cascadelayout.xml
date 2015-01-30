@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:cascade="http://schemas.android.com/apk/res-auto"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent">
+    <com.xj.myapplication.myviewgroup.customview.CascadeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            cascade:cascade_hor_space="30dp"
+            cascade:cascade_ver_space="50dp">
+
+        <View
+                android:layout_width="100dp"
+                android:layout_height="150dp"
+                android:background="#FF0000"/>
+
+        <View
+                android:layout_width="100dp"
+                android:layout_height="150dp"
+                android:background="#00FF00"/>
+        <View
+                android:layout_width="100dp"
+                android:layout_height="150dp"
+                android:background="#0000FF"/>
+
+
+    </com.xj.myapplication.myviewgroup.customview.CascadeLayout>
+
+</FrameLayout>
